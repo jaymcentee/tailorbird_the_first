@@ -1,0 +1,3 @@
+Selection	View	Channel	Begin Time (s)	End Time (s)	Low Freq (Hz)	High Freq (Hz)	Q1 Freq (Hz)	Q3 Freq (Hz)	Avg Entropy (bits)	Delta Freq (Hz)	Delta Time (s)	IQR BW (Hz)	Peak Freq (Hz)	Peak Freq Contour (Hz)	PFC Avg Slope (Hz/ms)	PFC Slope (Hz/ms)	PFC Num Inf Pts
+1	Waveform 1	1	1.265831871	1.366388330	1965.5	5513.0				3547.5	0.101						
+1	Spectrogram 1	1	1.265831871	1.366388330	1965.5	5513.0	4593.8	4968.8	3.300	3547.5	0.101	375.0	4781.2	4500.0;4781.2;5062.5;5343.8;4406.2;5343.8;5250.0;5343.8;5062.5;4968.8;4781.2;4593.8;4500.0;4593.8;4218.8;4031.2;4968.8;4968.8	5.2	52.7;52.7;52.7;-175.8;175.8;-17.6;17.6;-52.7;-17.6;-35.2;-35.2;-17.6;17.6;-70.3;-35.2;175.8;0.0	8

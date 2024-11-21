@@ -1,0 +1,539 @@
+install.packages("learnPopGen")
+library(learnPopGen)
+genetic.drift(p0 = 0.3, Ne = 200, nrep = 10, time = 100, show = "p")
+0.5^20
+genetic.drift(p0 = 0.8, Ne = 200, nrep = 100, time = 100, show = "p")
+0.7*20
+genetic.drift(p0 = 0.3, Ne = 100, nrep =80, time = 100, show = "p")
+genetic.drift(p0 = 0.3, Ne = 1000, nrep =40, time = 100, show = "p")
+13291/719837
+sample(12, size = 2)
+library(learnPopGen)
+png("genetic_drift_2.png")
+genetic.drift(p0 = 0.3, Ne = 1000, nrep =40, time = 100, show = "p")
+de.voff()
+dev.off()
+4*15*90/(15+90)
+2*3+18
+24/(44*2)
+157.5-163.2
+-5.7/10.1
+190.5-163.2
+27.3/10.1
+.288+.00347
+98.524-2.06(0.678/(25^0.5))
+98.524-2.06*(0.678/(25^0.5))
+98.524+2.06*(0.678/(25^0.5))
+sample(12, 2)
+3+18+49.5+17+10+5+17.5+49.5+8+20+9
+10+25+10+100+25+10+25+100+25+15
+206.5/345
+256/345
+.000000015*3000000000
+pi_sn <- .000014
+pi_mainlnad <- .0012
+mut_rate <- .00000002
+.000014/(4*.00000002)
+.0012/(4*.00000002)
+4*10000*30*(1-1/20)
+4*10000*15*(1-1/20)
+4*10000*30*(1-1/20)
+4*10000*15*(1-1/500)
+.008*8+-.172*7+.376*7
+1.492/22
+.008-.0678
+-.0598^2
+*8
+-.003576*8
+-.172-.0678
+-.2398^2
+-.0575*7
+.376-.0678
+.3082^2
+.094987*7
+-.028608+.4025+.664909
+(.29^2)*7+(.17^2)*6+(.31^2)*6
+1.038+1.3387
+1.038/2
+1.3387/19
+.519/.0704
+1.096/2
+1.1947/19
+.548/.063
+.2*.1
+.9+.2
+1.1/2
+.1+.8
+0.9/2
+.45*.55
+.02+.72
+.74/2
+.37-.2475
+.0723/.1225
+log(.59)
+-.5276327/.1
+.02+.72
+.74/2
+.55*.45
+.37-.2475
+84/12
+sample(3, 1)
+sample(4, 17)
+sample(17, 4)
+sample(17, 4)
+sample(17,2)
+sample(17,1)
+sample(17,1)
+sample(17,4)
+sample(17,4)
+sample(17,4)
+12/*27.55
+12*27.55
++3*87.33
+23.74+3*7.99+26.99+43.48+3*27.55+3*87.33+57.65
+sample(9,1)
+sample(9,3)
+sample(9,3)
+sample(9,1)
+6/11
+sample(6, 3)
+48000/512
+??getData
+?merge
+?hist
+rm(list = ls())
+require(plotrix)#
+require(ggplot2)#
+require(cowplot)#
+##Set working directory#
+setwd("/Users/jaymcentee/Dropbox/tailorbird etc/analyses/")
+data <- read.csv("Artisornis_duet_scoring_Apr82021.csv")
+head(data)
+dim(data)
+table(data$Duet..Y.N.)
+129+196
+data <- read.csv("Artisornis_duet_scoring_Apr82021.csv")
+dim(data)
+data[332,]
+data[333,]
+data[334,]
+data <- data[1:331,]
+dim(data)
+data <- read.csv("Artisornis_duet_scoring_Apr82021.csv")
+dim(data)
+data <- data[which(complete.cases(data$Num.of.male.elements)),]
+dim(data)
+data$Male.measurement.order <- as.character(data$Male.measurement.order)#
+data$Female.Measurement.order <- as.character(data$Female.Measurement.order)
+table(data$Species)#
+##Separate data into two data frames, one for each species#
+moreaui <- subset(data, data$Species == "Artisornis moreaui")#
+metopias <- subset(data, data$Species == "Artisornis metopias")
+table(data$Species)
+hist(moreaui$Num.of.male.elements)
+hist(moreaui$Num.of.female.elements)
+moreaui$male_minus_female_elements <- moreaui$Num.of.male.elements - moreaui$Num.of.female.elements#
+metopias$male_minus_female_elements <- metopias$Num.of.male.elements - metopias$Num.of.female.elements#
+#
+moreaui_number_elements_test <- t.test(moreaui$Num.of.male.elements, moreaui$Num.of.female.elements, paired = TRUE)#
+metopias_number_elements_test <- t.test(metopias$Num.of.male.elements, metopias$Num.of.female.elements, paired = TRUE)
+moreaui_number_elements_test
+setwd("/Users/jaymcentee/Dropbox/tailorbird etc/measurements/moreaui_measurements/")
+data <- read.csv("Artisornis_duet_scoring_Apr82021.csv")#
+#
+##Subset data (in effect, clean up the rows)#
+data <- data[which(complete.cases(data$Num.of.male.elements)),]#
+data$Male.measurement.order <- as.character(data$Male.measurement.order)#
+data$Female.Measurement.order <- as.character(data$Female.Measurement.order)
+setwd("/Users/jaymcentee/Dropbox/tailorbird etc/analyses/")
+data <- read.csv("Artisornis_duet_scoring_Apr82021.csv")#
+#
+##Subset data (in effect, clean up the rows)#
+data <- data[which(complete.cases(data$Num.of.male.elements)),]#
+data$Male.measurement.order <- as.character(data$Male.measurement.order)#
+data$Female.Measurement.order <- as.character(data$Female.Measurement.order)
+moreaui <- subset(data, data$Species == "Artisornis moreaui")#
+metopias <- subset(data, data$Species == "Artisornis metopias")
+setwd("/Users/jaymcentee/Dropbox/tailorbird etc/measurements/moreaui_measurements/")
+df <- read.delim(list.files()[1])
+head(df)
+list.files()[1]
+list.files()
+df <- subset(df, df$View == "Spectrogram 1")
+df
+df$name <- list.files()[1]
+df$name
+num_notes <- length(df[,1])
+num_notes
+for (i in 1:num_notes){#
+  df$sex[i] <- strsplit(tail(unlist(strsplit(df$name[i], split = "_", fixed = TRUE)),n = 1), split = ".", fixed =TRUE)[[1]][1]#
+}
+df
+for (i in 1:length(df$name)){#
+  df$song[i] <- strsplit(df$name[i], split = ".Table", fixed = TRUE)[[1]][1]#
+  data_for_i <- data[which(data$Song == df$song[i]),]#
+  if(df$sex[i] == "f"){#
+  df$order_in_song[i] <- as.numeric(strsplit(data_for_i$Female.Measurement.order, split = ",", fixed = TRUE)[[1]][i])#
+  }else{#
+  df$order_in_song[i] <- as.numeric(strsplit(data_for_i$Male.measurement.order, split = ",", fixed = TRUE)[[1]][i])#
+  }#
+}
+df$order_in_song
+for(i in 2:length(list.files())){#
+  d <- read.delim(list.files()[i])#
+  d <- subset(d, d$View == "Spectrogram 1")#
+  d$name <- list.files()[i]#
+  num_notes <- length(d[,1])#
+  for (j in 1:num_notes){#
+  d$sex[j] <- strsplit(tail(unlist(strsplit(d$name[j], split = "_", fixed = TRUE)),n = 1), split = ".", fixed =TRUE)[[1]][1]#
+	}#
+  for (k in 1:length(d$name)){#
+  d$song[k] <- strsplit(d$name[k], split = ".Table", fixed = TRUE)[[1]][1]#
+  data_for_k <- data[which(data$Song == d$song[k]),]#
+  if(d$sex[k] == "f"){#
+  d$order_in_song[k] <- as.numeric(strsplit(data_for_k$Female.Measurement.order, split = ",", fixed = TRUE)[[1]][k])#
+  }else{#
+  d$order_in_song[k] <- as.numeric(strsplit(data_for_k$Male.measurement.order, split = ",", fixed = TRUE)[[1]][k])#
+  }#
+  df <- rbind(df, d)#
+}#
+}
+i
+for(i in 57:length(list.files())){#
+  d <- read.delim(list.files()[i])#
+  d <- subset(d, d$View == "Spectrogram 1")#
+  d$name <- list.files()[i]#
+  num_notes <- length(d[,1])#
+  for (j in 1:num_notes){#
+  d$sex[j] <- strsplit(tail(unlist(strsplit(d$name[j], split = "_", fixed = TRUE)),n = 1), split = ".", fixed =TRUE)[[1]][1]#
+	}#
+  for (k in 1:length(d$name)){#
+  d$song[k] <- strsplit(d$name[k], split = ".Table", fixed = TRUE)[[1]][1]#
+  data_for_k <- data[which(data$Song == d$song[k]),]#
+  if(d$sex[k] == "f"){#
+  d$order_in_song[k] <- as.numeric(strsplit(data_for_k$Female.Measurement.order, split = ",", fixed = TRUE)[[1]][k])#
+  }else{#
+  d$order_in_song[k] <- as.numeric(strsplit(data_for_k$Male.measurement.order, split = ",", fixed = TRUE)[[1]][k])#
+  }#
+  df <- rbind(df, d)#
+}#
+}
+i
+list.files()[57]
+list.files()[58]
+list.files()[70]
+list.files()[71]
+list.files()[72]
+list.files()[73]
+list.files()[74]
+list.files()[75]
+list.files()[80]
+list.files()[90]
+list.files()[100]
+list.files()[90:100]
+for(i in 91:length(list.files())){#
+  d <- read.delim(list.files()[i])#
+  d <- subset(d, d$View == "Spectrogram 1")#
+  d$name <- list.files()[i]#
+  num_notes <- length(d[,1])#
+  for (j in 1:num_notes){#
+  d$sex[j] <- strsplit(tail(unlist(strsplit(d$name[j], split = "_", fixed = TRUE)),n = 1), split = ".", fixed =TRUE)[[1]][1]#
+	}#
+  for (k in 1:length(d$name)){#
+  d$song[k] <- strsplit(d$name[k], split = ".Table", fixed = TRUE)[[1]][1]#
+  data_for_k <- data[which(data$Song == d$song[k]),]#
+  if(d$sex[k] == "f"){#
+  d$order_in_song[k] <- as.numeric(strsplit(data_for_k$Female.Measurement.order, split = ",", fixed = TRUE)[[1]][k])#
+  }else{#
+  d$order_in_song[k] <- as.numeric(strsplit(data_for_k$Male.measurement.order, split = ",", fixed = TRUE)[[1]][k])#
+  }#
+  df <- rbind(df, d)#
+}#
+}
+i
+list.files()[109]
+list.files()[109:130]
+for(i in 115:length(list.files())){#
+  d <- read.delim(list.files()[i])#
+  d <- subset(d, d$View == "Spectrogram 1")#
+  d$name <- list.files()[i]#
+  num_notes <- length(d[,1])#
+  for (j in 1:num_notes){#
+  d$sex[j] <- strsplit(tail(unlist(strsplit(d$name[j], split = "_", fixed = TRUE)),n = 1), split = ".", fixed =TRUE)[[1]][1]#
+	}#
+  for (k in 1:length(d$name)){#
+  d$song[k] <- strsplit(d$name[k], split = ".Table", fixed = TRUE)[[1]][1]#
+  data_for_k <- data[which(data$Song == d$song[k]),]#
+  if(d$sex[k] == "f"){#
+  d$order_in_song[k] <- as.numeric(strsplit(data_for_k$Female.Measurement.order, split = ",", fixed = TRUE)[[1]][k])#
+  }else{#
+  d$order_in_song[k] <- as.numeric(strsplit(data_for_k$Male.measurement.order, split = ",", fixed = TRUE)[[1]][k])#
+  }#
+  df <- rbind(df, d)#
+}#
+}
+i
+list.files()[117]
+for(i in 118:length(list.files())){#
+  d <- read.delim(list.files()[i])#
+  d <- subset(d, d$View == "Spectrogram 1")#
+  d$name <- list.files()[i]#
+  num_notes <- length(d[,1])#
+  for (j in 1:num_notes){#
+  d$sex[j] <- strsplit(tail(unlist(strsplit(d$name[j], split = "_", fixed = TRUE)),n = 1), split = ".", fixed =TRUE)[[1]][1]#
+	}#
+  for (k in 1:length(d$name)){#
+  d$song[k] <- strsplit(d$name[k], split = ".Table", fixed = TRUE)[[1]][1]#
+  data_for_k <- data[which(data$Song == d$song[k]),]#
+  if(d$sex[k] == "f"){#
+  d$order_in_song[k] <- as.numeric(strsplit(data_for_k$Female.Measurement.order, split = ",", fixed = TRUE)[[1]][k])#
+  }else{#
+  d$order_in_song[k] <- as.numeric(strsplit(data_for_k$Male.measurement.order, split = ",", fixed = TRUE)[[1]][k])#
+  }#
+  df <- rbind(df, d)#
+}#
+}
+i
+dim(df)
+list.files()[118:150]
+for(i in 120:length(list.files())){#
+  d <- read.delim(list.files()[i])#
+  d <- subset(d, d$View == "Spectrogram 1")#
+  d$name <- list.files()[i]#
+  num_notes <- length(d[,1])#
+  for (j in 1:num_notes){#
+  d$sex[j] <- strsplit(tail(unlist(strsplit(d$name[j], split = "_", fixed = TRUE)),n = 1), split = ".", fixed =TRUE)[[1]][1]#
+	}#
+  for (k in 1:length(d$name)){#
+  d$song[k] <- strsplit(d$name[k], split = ".Table", fixed = TRUE)[[1]][1]#
+  data_for_k <- data[which(data$Song == d$song[k]),]#
+  if(d$sex[k] == "f"){#
+  d$order_in_song[k] <- as.numeric(strsplit(data_for_k$Female.Measurement.order, split = ",", fixed = TRUE)[[1]][k])#
+  }else{#
+  d$order_in_song[k] <- as.numeric(strsplit(data_for_k$Male.measurement.order, split = ",", fixed = TRUE)[[1]][k])#
+  }#
+  df <- rbind(df, d)#
+}#
+}
+i
+for(i in 121:length(list.files())){#
+  d <- read.delim(list.files()[i])#
+  d <- subset(d, d$View == "Spectrogram 1")#
+  d$name <- list.files()[i]#
+  num_notes <- length(d[,1])#
+  for (j in 1:num_notes){#
+  d$sex[j] <- strsplit(tail(unlist(strsplit(d$name[j], split = "_", fixed = TRUE)),n = 1), split = ".", fixed =TRUE)[[1]][1]#
+	}#
+  for (k in 1:length(d$name)){#
+  d$song[k] <- strsplit(d$name[k], split = ".Table", fixed = TRUE)[[1]][1]#
+  data_for_k <- data[which(data$Song == d$song[k]),]#
+  if(d$sex[k] == "f"){#
+  d$order_in_song[k] <- as.numeric(strsplit(data_for_k$Female.Measurement.order, split = ",", fixed = TRUE)[[1]][k])#
+  }else{#
+  d$order_in_song[k] <- as.numeric(strsplit(data_for_k$Male.measurement.order, split = ",", fixed = TRUE)[[1]][k])#
+  }#
+  df <- rbind(df, d)#
+}#
+}
+i
+for(i in 130:length(list.files())){#
+  d <- read.delim(list.files()[i])#
+  d <- subset(d, d$View == "Spectrogram 1")#
+  d$name <- list.files()[i]#
+  num_notes <- length(d[,1])#
+  for (j in 1:num_notes){#
+  d$sex[j] <- strsplit(tail(unlist(strsplit(d$name[j], split = "_", fixed = TRUE)),n = 1), split = ".", fixed =TRUE)[[1]][1]#
+	}#
+  for (k in 1:length(d$name)){#
+  d$song[k] <- strsplit(d$name[k], split = ".Table", fixed = TRUE)[[1]][1]#
+  data_for_k <- data[which(data$Song == d$song[k]),]#
+  if(d$sex[k] == "f"){#
+  d$order_in_song[k] <- as.numeric(strsplit(data_for_k$Female.Measurement.order, split = ",", fixed = TRUE)[[1]][k])#
+  }else{#
+  d$order_in_song[k] <- as.numeric(strsplit(data_for_k$Male.measurement.order, split = ",", fixed = TRUE)[[1]][k])#
+  }#
+  df <- rbind(df, d)#
+}#
+}
+i
+list.files()[130:150]
+for(i in 142:length(list.files())){#
+  d <- read.delim(list.files()[i])#
+  d <- subset(d, d$View == "Spectrogram 1")#
+  d$name <- list.files()[i]#
+  num_notes <- length(d[,1])#
+  for (j in 1:num_notes){#
+  d$sex[j] <- strsplit(tail(unlist(strsplit(d$name[j], split = "_", fixed = TRUE)),n = 1), split = ".", fixed =TRUE)[[1]][1]#
+	}#
+  for (k in 1:length(d$name)){#
+  d$song[k] <- strsplit(d$name[k], split = ".Table", fixed = TRUE)[[1]][1]#
+  data_for_k <- data[which(data$Song == d$song[k]),]#
+  if(d$sex[k] == "f"){#
+  d$order_in_song[k] <- as.numeric(strsplit(data_for_k$Female.Measurement.order, split = ",", fixed = TRUE)[[1]][k])#
+  }else{#
+  d$order_in_song[k] <- as.numeric(strsplit(data_for_k$Male.measurement.order, split = ",", fixed = TRUE)[[1]][k])#
+  }#
+  df <- rbind(df, d)#
+}#
+}
+i
+list.files()[142:170]
+for(i in 158:length(list.files())){#
+  d <- read.delim(list.files()[i])#
+  d <- subset(d, d$View == "Spectrogram 1")#
+  d$name <- list.files()[i]#
+  num_notes <- length(d[,1])#
+  for (j in 1:num_notes){#
+  d$sex[j] <- strsplit(tail(unlist(strsplit(d$name[j], split = "_", fixed = TRUE)),n = 1), split = ".", fixed =TRUE)[[1]][1]#
+	}#
+  for (k in 1:length(d$name)){#
+  d$song[k] <- strsplit(d$name[k], split = ".Table", fixed = TRUE)[[1]][1]#
+  data_for_k <- data[which(data$Song == d$song[k]),]#
+  if(d$sex[k] == "f"){#
+  d$order_in_song[k] <- as.numeric(strsplit(data_for_k$Female.Measurement.order, split = ",", fixed = TRUE)[[1]][k])#
+  }else{#
+  d$order_in_song[k] <- as.numeric(strsplit(data_for_k$Male.measurement.order, split = ",", fixed = TRUE)[[1]][k])#
+  }#
+  df <- rbind(df, d)#
+}#
+}
+i
+list.files[158:200]
+list.files()[158:200]
+for(i in 200:length(list.files())){#
+  d <- read.delim(list.files()[i])#
+  d <- subset(d, d$View == "Spectrogram 1")#
+  d$name <- list.files()[i]#
+  num_notes <- length(d[,1])#
+  for (j in 1:num_notes){#
+  d$sex[j] <- strsplit(tail(unlist(strsplit(d$name[j], split = "_", fixed = TRUE)),n = 1), split = ".", fixed =TRUE)[[1]][1]#
+	}#
+  for (k in 1:length(d$name)){#
+  d$song[k] <- strsplit(d$name[k], split = ".Table", fixed = TRUE)[[1]][1]#
+  data_for_k <- data[which(data$Song == d$song[k]),]#
+  if(d$sex[k] == "f"){#
+  d$order_in_song[k] <- as.numeric(strsplit(data_for_k$Female.Measurement.order, split = ",", fixed = TRUE)[[1]][k])#
+  }else{#
+  d$order_in_song[k] <- as.numeric(strsplit(data_for_k$Male.measurement.order, split = ",", fixed = TRUE)[[1]][k])#
+  }#
+  df <- rbind(df, d)#
+}#
+}
+i
+list.files()[203]
+list.files()
+selections <- list.files()
+head(data)
+class(selections)
+class(data$Song)
+song_names <- as.character(data$Song)
+class(song_names)
+strsplit(selections[i], split = ".Table", fixed = TRUE)[[1]][1]
+"artisornis.moreaui_jul302011_njesi_jpm_p_0.15" %in% song_names
+song_names[1:5]
+song_names
+df <- read.delim(list.files()[1])
+df
+df <- subset(df, df$View == "Spectrogram 1")
+df$name <- list.files()[1]
+df
+selections <- list.files()
+selection == list.files()
+selections == list.files()
+list.files()[1]
+selections[1]
+selections <- list.files()
+selection_song <- strsplit(selections[1], split = ".Table", fixed = TRUE)[[1]][1]
+selection_song
+strsplit(selections[1], split = ".Table", fixed = TRUE)[[1]][1]
+"artisornis.moreaui_aug042011_njesi_em_q_0.00" %in% song_names
+mismatches <- c()
+!"artisornis.moreaui_aug042011_njesi_em_q_0.00" %in% song_names
+"artisornis.moreaui_aug042011_njesi_em_q_0.00" %in% song_names
+for (i in 1:length(selections)){#
+	selection_song <- strsplit(selections[i], split = ".Table", fixed = TRUE)[[1]][1]#
+	if(!selection_song %in% song_names){#
+		append(selection_song, mismatches)#
+	}#
+}
+mismatches
+selections[56]
+selection_song <- strsplit(selections[56], split = ".Table", fixed = TRUE)[[1]][1]
+selection_song
+"artisornis.moreaui_aug042011_njesi_jpm_c_0.05" %in% song_names
+for (i in 1:length(selections)){#
+	selection_song <- strsplit(selections[i], split = ".Table", fixed = TRUE)[[1]][1]#
+	mismatches[i] <- selection_song %in% song_names#
+}
+mismatches
+sum(mismatches)
+528-271
+length(song_names
+)
+length(selection_song)
+length(selections)
+selections[mismatches]
+selections[!mismatches]
+df <- read.delim(list.files()[1])#
+df <- subset(df, df$View == "Spectrogram 1")
+df$name <- list.files()[1]#
+num_notes <- length(df[,1])#
+for (i in 1:num_notes){#
+  df$sex[i] <- strsplit(tail(unlist(strsplit(df$name[i], split = "_", fixed = TRUE)),n = 1), split = ".", fixed =TRUE)[[1]][1]#
+}#
+for (i in 1:length(df$name)){#
+  df$song[i] <- strsplit(df$name[i], split = ".Table", fixed = TRUE)[[1]][1]#
+  data_for_i <- data[which(data$Song == df$song[i]),]#
+  # if(df$sex[i] == "f"){#
+  # df$order_in_song[i] <- as.numeric(strsplit(data_for_i$Female.Measurement.order, split = ",", fixed = TRUE)[[1]][i])#
+  # }else{#
+  # df$order_in_song[i] <- as.numeric(strsplit(data_for_i$Male.measurement.order, split = ",", fixed = TRUE)[[1]][i])#
+  # }#
+}
+df
+for(i in 2:length(list.files())){#
+  d <- read.delim(list.files()[i])#
+  d <- subset(d, d$View == "Spectrogram 1")#
+  d$name <- list.files()[i]#
+  num_notes <- length(d[,1])#
+  for (j in 1:num_notes){#
+  d$sex[j] <- strsplit(tail(unlist(strsplit(d$name[j], split = "_", fixed = TRUE)),n = 1), split = ".", fixed =TRUE)[[1]][1]#
+	}#
+  # for (k in 1:length(d$name)){#
+  # d$song[k] <- strsplit(d$name[k], split = ".Table", fixed = TRUE)[[1]][1]#
+  # data_for_k <- data[which(data$Song == d$song[k]),]#
+  # if(d$sex[k] == "f"){#
+  # d$order_in_song[k] <- as.numeric(strsplit(data_for_k$Female.Measurement.order, split = ",", fixed = TRUE)[[1]][k])#
+  # }else{#
+  # d$order_in_song[k] <- as.numeric(strsplit(data_for_k$Male.measurement.order, split = ",", fixed = TRUE)[[1]][k])#
+  # }#
+  df <- rbind(df, d)#
+}#
+}
+d
+df
+for(i in 2:length(list.files())){#
+  d <- read.delim(list.files()[i])#
+  d <- subset(d, d$View == "Spectrogram 1")#
+  d$name <- list.files()[i]#
+  num_notes <- length(d[,1])#
+  for (j in 1:num_notes){#
+  d$sex[j] <- strsplit(tail(unlist(strsplit(d$name[j], split = "_", fixed = TRUE)),n = 1), split = ".", fixed =TRUE)[[1]][1]#
+	}#
+  for (k in 1:length(d$name)){#
+  	d$song[k] <- strsplit(d$name[k], split = ".Table", fixed = TRUE)[[1]][1]#
+  # data_for_k <- data[which(data$Song == d$song[k]),]#
+  # if(d$sex[k] == "f"){#
+  # d$order_in_song[k] <- as.numeric(strsplit(data_for_k$Female.Measurement.order, split = ",", fixed = TRUE)[[1]][k])#
+  # }else{#
+  # d$order_in_song[k] <- as.numeric(strsplit(data_for_k$Male.measurement.order, split = ",", fixed = TRUE)[[1]][k])#
+  }#
+  df <- rbind(df, d)#
+}#
+}
+dim(df)
+selections
+write.csv(mismatches, "moreaui_mismatches.csv")
+435*0.37
+952*0.37
+352.24+160.96
