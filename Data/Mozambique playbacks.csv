@@ -1,0 +1,85 @@
+ID,ID.2,Site,Date,Latitude,Longitude,Start time,Target species,Individual,Trial_type,Playback lure,Playback order,Latency to approach (s),Latency to vocalisation (s),Close approach (m),Number of vocalisations,Notes
+1,1.1,Sanga,17-Nov,S12.38289,E035.33405,11:38,Artisornis moreaui,Initiator,AControl,Ploceus bicolor,HC,420,420,20,0,"Only 1 bird responded - not clear if the other bird was e.g. incubating, or whether the bird which did approach the playback was a lone bird. When this bird was subsequently caught it showed signs of being an immature bird. Perhaps this explains why only a single bird responded"
+1,1.1,Sanga,17-Nov,,,11:38,Artisornis moreaui,Initiator,CHeterospecific,Artisornis metopias_Jay McEntee_Njesi,HC,420,420,20,0,"Only 1 bird responded - not clear if the other bird was e.g. incubating, or whether the bird which did approach the playback was a lone bird. When this bird was subsequently caught it showed signs of being an immature bird. Perhaps this explains why only a single bird responded"
+1,1.1,Sanga,17-Nov,,,11:38,Artisornis moreaui,Initiator,BConspecific,Artisornis moreaui_Jay McEntee_Njesi,HC,51,51,2,44,"Only 1 bird responded - not clear if the other bird was e.g. incubating, or whether the bird which did approach the playback was a lone bird. When this bird was subsequently caught it showed signs of being an immature bird. Perhaps this explains why only a single bird responded"
+1,1.2,Sanga,17-Nov,,,11:38,Artisornis moreaui,Responder,AControl,Ploceus bicolor,HC,420,420,20,0,"Only 1 bird responded - not clear if the other bird was e.g. incubating, or whether the bird which did approach the playback was a lone bird. When this bird was subsequently caught it showed signs of being an immature bird. Perhaps this explains why only a single bird responded"
+1,1.2,Sanga,17-Nov,,,11:38,Artisornis moreaui,Responder,CHeterospecific,Artisornis metopias_Jay McEntee_Njesi,HC,420,420,20,0,"Only 1 bird responded - not clear if the other bird was e.g. incubating, or whether the bird which did approach the playback was a lone bird. When this bird was subsequently caught it showed signs of being an immature bird. Perhaps this explains why only a single bird responded"
+1,1.2,Sanga,17-Nov,,,11:38,Artisornis moreaui,Responder,BConspecific,Artisornis moreaui_Jay McEntee_Njesi,HC,420,420,20,0,"Only 1 bird responded - not clear if the other bird was e.g. incubating, or whether the bird which did approach the playback was a lone bird. When this bird was subsequently caught it showed signs of being an immature bird. Perhaps this explains why only a single bird responded"
+2,2.1,Sanga,17-Nov,S12.38194,E035.33451,16:58,Artisornis moreaui,Initiator,AControl,Ploceus bicolor,HC,420,330,20,6,Responder made a few vocalisations (3) but did not approach speake
+2,2.1,Sanga,17-Nov,,,16:58,Artisornis moreaui,Initiator,CHeterospecific,Artisornis metopias_Jay McEntee_Njesi,HC,420,420,20,0,Responder made a few vocalisations (3) but did not approach speake
+2,2.1,Sanga,17-Nov,,,16:58,Artisornis moreaui,Initiator,BConspecific,Artisornis moreaui_Jay McEntee_Njesi,HC,112,112,8,25,Responder made a few vocalisations (3) but did not approach speake
+2,2.2,Sanga,17-Nov,S12.38195,E035.33452,16:58,Artisornis moreaui,Responder,AControl,Ploceus bicolor,HC,420,330,20,2,Responder made a few vocalisations (3) but did not approach speake
+2,2.2,Sanga,17-Nov,,,16:58,Artisornis moreaui,Responder,CHeterospecific,Artisornis metopias_Jay McEntee_Njesi,HC,420,420,20,0,Responder made a few vocalisations (3) but did not approach speake
+2,2.2,Sanga,17-Nov,,,16:58,Artisornis moreaui,Responder,BConspecific,Artisornis moreaui_Jay McEntee_Njesi,HC,420,330,20,3,Responder made a few vocalisations (3) but did not approach speake
+3,3.1,Sanga,18-Nov,S12.38330,E035.33501,15:59,Artisornis moreaui,Initiator,AControl,Ploceus bicolor,HC,420,420,20,0,"Single vocalisation given by Long-billed Tailorbird pair - almost certainly a co-incidence and not induced by the playback, given only one vocalisation and no approach to speakers."
+3,3.1,Sanga,18-Nov,,,15:59,Artisornis moreaui,Initiator,CHeterospecific,Artisornis metopias_Jay McEntee_Njesi,HC,420,6,20,1,"Single vocalisation given by Long-billed Tailorbird pair - almost certainly a co-incidence and not induced by the playback, given only one vocalisation and no approach to speakers."
+3,3.1,Sanga,18-Nov,,,15:59,Artisornis moreaui,Initiator,BConspecific,Artisornis moreaui_Jay McEntee_Njesi,HC,76,34,6,15,"Single vocalisation given by Long-billed Tailorbird pair - almost certainly a co-incidence and not induced by the playback, given only one vocalisation and no approach to speakers."
+3,3.2,Sanga,18-Nov,S12.38331,E035.33502,15:59,Artisornis moreaui,Responder,AControl,Ploceus bicolor,HC,420,420,20,0,"Single vocalisation given by Long-billed Tailorbird pair - almost certainly a co-incidence and not induced by the playback, given only one vocalisation and no approach to speakers."
+3,3.2,Sanga,18-Nov,,,15:59,Artisornis moreaui,Responder,CHeterospecific,Artisornis metopias_Jay McEntee_Njesi,HC,420,10,20,1,"Single vocalisation given by Long-billed Tailorbird pair - almost certainly a co-incidence and not induced by the playback, given only one vocalisation and no approach to speakers."
+3,3.2,Sanga,18-Nov,,,15:59,Artisornis moreaui,Responder,BConspecific,Artisornis moreaui_Jay McEntee_Njesi,HC,173,173,10,12,"Single vocalisation given by Long-billed Tailorbird pair - almost certainly a co-incidence and not induced by the playback, given only one vocalisation and no approach to speakers."
+4,4.1,Sanga,17-Nov,S12.38265,E035.33422,09:25,Artisornis moreaui,Initiator,AControl,Eurillas virens,CH,420,420,20,0,
+4,4.1,Sanga,17-Nov,,,09:25,Artisornis moreaui,Initiator,BConspecific,Artisornis moreaui_Jay McEntee_Njesi,CH,160,28,11,14,
+4,4.1,Sanga,17-Nov,,,09:25,Artisornis moreaui,Initiator,CHeterospecific,Artisornis metopias_Jay McEntee_Njesi,CH,420,420,20,0,
+4,4.2,Sanga,17-Nov,S12.38265,E035.33422,09:25,Artisornis moreaui,Responder,AControl,Eurillas virens,CH,420,420,20,0,
+4,4.2,Sanga,17-Nov,,,09:25,Artisornis moreaui,Responder,BConspecific,Artisornis moreaui_Jay McEntee_Njesi,CH,160,28,11,13,
+4,4.2,Sanga,17-Nov,,,09:25,Artisornis moreaui,Responder,CHeterospecific,Artisornis metopias_Jay McEntee_Njesi,CH,420,420,20,0,
+5,5.1,Sanga,18-Nov,S12.38373,E035.33392,11:53,Artisornis moreaui,Initiator,AControl,Ploceus bicolor,CH,420,420,20,0,Both birds called shortly after playback finished (but only initiator came into speaker). A response by Long-billed Tailorbirds to African Tailorbird playback. Perhaps because the bird
+5,5.1,Sanga,18-Nov,,,11:53,Artisornis moreaui,Initiator,BConspecific,Artisornis moreaui_Jay McEntee_Njesi,CH,140,145,1,8,Both birds called shortly after playback finished (but only initiator came into speaker). A response by Long-billed Tailorbirds to African Tailorbird playback. Perhaps because the bird
+5,5.1,Sanga,18-Nov,,,11:53,Artisornis moreaui,Initiator,CHeterospecific,Artisornis metopias_Jay McEntee_Njesi,CH,20,261,2,6,Both birds called shortly after playback finished (but only initiator came into speaker). A response by Long-billed Tailorbirds to African Tailorbird playback. Perhaps because the bird
+5,5.2,Sanga,18-Nov,S12.38373,E035.33392,11:53,Artisornis moreaui,Responder,AControl,Ploceus bicolor,CH,420,420,20,0,Both birds called shortly after playback finished (but only initiator came into speaker). A response by Long-billed Tailorbirds to African Tailorbird playback. Perhaps because the bird
+5,5.2,Sanga,18-Nov,,,11:53,Artisornis moreaui,Responder,BConspecific,Artisornis moreaui_Jay McEntee_Njesi,CH,420,420,20,0,Both birds called shortly after playback finished (but only initiator came into speaker). A response by Long-billed Tailorbirds to African Tailorbird playback. Perhaps because the bird
+5,5.2,Sanga,18-Nov,,,11:53,Artisornis moreaui,Responder,CHeterospecific,Artisornis metopias_Jay McEntee_Njesi,CH,260,260,18,1,Both birds called shortly after playback finished (but only initiator came into speaker). A response by Long-billed Tailorbirds to African Tailorbird playback. Perhaps because the bird
+6,6.1,Sanga,18-Nov,S12.38048,E035.33289,06:05,Artisornis moreaui,Initiator,AControl,Ploceus bicolor,CH,420,420,20,0,A response by Long-billed Tailorbirds to African Tailorbird playback. Perhaps because the birds were still pumped up after the Long-billed Tailorbird playback?
+6,6.1,Sanga,18-Nov,,,06:05,Artisornis moreaui,Initiator,BConspecific,Artisornis moreaui_Jay McEntee_Njesi,CH,23,9,4,58,A response by Long-billed Tailorbirds to African Tailorbird playback. Perhaps because the birds were still pumped up after the Long-billed Tailorbird playback?
+6,6.1,Sanga,18-Nov,,,06:05,Artisornis moreaui,Initiator,CHeterospecific,Artisornis metopias_Jay McEntee_Njesi,CH,20,20,5,35,A response by Long-billed Tailorbirds to African Tailorbird playback. Perhaps because the birds were still pumped up after the Long-billed Tailorbird playback?
+6,6.2,Sanga,18-Nov,S12.38048,E035.33289,06:05,Artisornis moreaui,Responder,AControl,Ploceus bicolor,CH,420,420,20,0,A response by Long-billed Tailorbirds to African Tailorbird playback. Perhaps because the birds were still pumped up after the Long-billed Tailorbird playback?
+6,6.2,Sanga,18-Nov,,,06:05,Artisornis moreaui,Responder,BConspecific,Artisornis moreaui_Jay McEntee_Njesi,CH,102,102,4,29,A response by Long-billed Tailorbirds to African Tailorbird playback. Perhaps because the birds were still pumped up after the Long-billed Tailorbird playback?
+6,6.2,Sanga,18-Nov,,,06:05,Artisornis moreaui,Responder,CHeterospecific,Artisornis metopias_Jay McEntee_Njesi,CH,31,31,5,6,A response by Long-billed Tailorbirds to African Tailorbird playback. Perhaps because the birds were still pumped up after the Long-billed Tailorbird playback?
+7,7.1,Sanga,18-Nov,S12.38152,E035.33397,07:31,Artisornis moreaui,Initiator,AControl,Eurillas virens,HC,420,171,20,13,
+7,7.1,Sanga,18-Nov,,,07:31,Artisornis moreaui,Initiator,CHeterospecific,Artisornis metopias_Jay McEntee_Njesi,HC,420,420,20,0,
+7,7.1,Sanga,18-Nov,,,07:31,Artisornis moreaui,Initiator,BConspecific,Artisornis moreaui_Jay McEntee_Njesi,HC,24,68,2,20,
+7,7.2,Sanga,18-Nov,S12.38152,E035.33397,07:31,Artisornis moreaui,Responder,AControl,Eurillas virens,HC,420,172,20,4,
+7,7.2,Sanga,18-Nov,,,07:31,Artisornis moreaui,Responder,CHeterospecific,Artisornis metopias_Jay McEntee_Njesi,HC,420,420,20,0,
+7,7.2,Sanga,18-Nov,,,07:31,Artisornis moreaui,Responder,BConspecific,Artisornis moreaui_Jay McEntee_Njesi,HC,28,70,2,7,
+8.1,8.11,Njesi,21-Nov,Not written,NA,14:37,Artisornis moreaui,Initiator,AControl,Eurillas virens,HC,420,420,20,0,
+8.1,8.11,Njesi,21-Nov,,,14:37,Artisornis moreaui,Initiator,CHeterospecific,Artisornis metopias_Jay McEntee_Njesi,HC,420,251,20,4,
+8.1,8.11,Njesi,21-Nov,,,14:37,Artisornis moreaui,Initiator,BConspecific,Artisornis moreaui_Jay McEntee_Njesi,HC,23,23,1,80,
+8.1,8.12,Njesi,21-Nov,Not written,NA,14:37,Artisornis moreaui,Responder,AControl,Eurillas virens,HC,420,420,20,0,
+8.1,8.12,Njesi,21-Nov,,,14:37,Artisornis moreaui,Responder,CHeterospecific,Artisornis metopias_Jay McEntee_Njesi,HC,420,420,20,0,
+8.1,8.12,Njesi,21-Nov,,,14:37,Artisornis moreaui,Responder,BConspecific,Artisornis moreaui_Jay McEntee_Njesi,HC,64,64,1,38,
+8.2,8.21,Njesi,21-Nov,Not written,NA,14:37,Artisornis metopias,Initiator,AControl,Eurillas virens,CH,420,420,20,0,
+8.2,8.21,Njesi,21-Nov,,,14:37,Artisornis metopias,Initiator,BConspecific,Artisornis metopias_Jay McEntee_Njesi,CH,16,16,1,37,
+8.2,8.21,Njesi,21-Nov,,,14:37,Artisornis metopias,Initiator,CHeterospecific,Artisornis moreaui_Jay McEntee_Njesi,CH,420,420,20,0,
+8.2,8.22,Njesi,21-Nov,Not written,NA,14:37,Artisornis metopias,Responder,AControl,Eurillas virens,CH,420,420,20,0,
+8.2,8.22,Njesi,21-Nov,,,14:37,Artisornis metopias,Responder,BConspecific,Artisornis metopias_Jay McEntee_Njesi,CH,16,16,2,21,
+8.2,8.22,Njesi,21-Nov,,,14:37,Artisornis metopias,Responder,CHeterospecific,Artisornis moreaui_Jay McEntee_Njesi,CH,420,420,20,0,
+9,9.1,Njesi,23-Nov,Not written,NA,16:40,Artisornis moreaui,Initiator,AControl,Cyanomitra olivacea,CH,420,420,20,0,
+9,9.1,Njesi,23-Nov,,,16:40,Artisornis moreaui,Initiator,BConspecific,Artisornis moreaui_Sanga_1,CH,92,108,2,22,
+9,9.1,Njesi,23-Nov,,,16:40,Artisornis moreaui,Initiator,CHeterospecific,Artisornis metopias_Njesi_GAJ,CH,420,420,20,0,
+9,9.2,Njesi,23-Nov,Not written,NA,16:40,Artisornis moreaui,Responder,AControl,Cyanomitra olivacea,CH,420,420,20,0,
+9,9.2,Njesi,23-Nov,,,16:40,Artisornis moreaui,Responder,BConspecific,Artisornis moreaui_Sanga_1,CH,94,140,2,7,
+9,9.2,Njesi,23-Nov,,,16:40,Artisornis moreaui,Responder,CHeterospecific,Artisornis metopias_Njesi_GAJ,CH,420,420,20,0,
+10.1,10.11,Njesi,24-Nov,S12.82950,E035.18627,12:10,Artisornis moreaui,Initiator,AControl,Cyanomitra olivacea,HC,420,420,20,0,
+10.1,10.11,Njesi,24-Nov,,,12:10,Artisornis moreaui,Initiator,CHeterospecific,Artisornis metopias_Njesi_GAJ,HC,420,420,20,0,
+10.1,10.11,Njesi,24-Nov,,,12:10,Artisornis moreaui,Initiator,BConspecific,Artisornis moreaui_Chitagal,HC,30,40,4,37,
+10.1,10.12,Njesi,24-Nov,S12.82950,E035.18627,12:10,Artisornis moreaui,Responder,AControl,Cyanomitra olivacea,HC,420,420,20,0,
+10.1,10.12,Njesi,24-Nov,,,12:10,Artisornis moreaui,Responder,CHeterospecific,Artisornis metopias_Njesi_GAJ,HC,420,420,20,0,
+10.1,10.12,Njesi,24-Nov,,,12:10,Artisornis moreaui,Responder,BConspecific,Artisornis moreaui_Chitagal,HC,30,30,4,17,
+10.2,10.21,Njesi,24-Nov,S12.82950,E035.18627,12:10,Artisornis metopias,Initiator,AControl,Cyanomitra olivacea,CH,420,420,20,0,
+10.2,10.21,Njesi,24-Nov,,,12:10,Artisornis metopias,Initiator,BConspecific,Artisornis metopias_Njesi_GAJ,CH,91,91,2,2,
+10.2,10.21,Njesi,24-Nov,,,12:10,Artisornis metopias,Initiator,CHeterospecific,Artisornis moreaui_Chitagal,CH,420,420,20,0,
+10.2,10.22,Njesi,24-Nov,S12.82950,E035.18627,12:10,Artisornis metopias,Responder,AControl,Cyanomitra olivacea,CH,420,420,20,0,
+10.2,10.22,Njesi,24-Nov,,,12:10,Artisornis metopias,Responder,BConspecific,Artisornis metopias_Njesi_GAJ,CH,90,90,2,1,
+10.2,10.22,Njesi,24-Nov,,,12:10,Artisornis metopias,Responder,CHeterospecific,Artisornis moreaui_Chitagal,CH,420,420,20,0,
+11.1,11.11,Njesi,24-Nov,Not written,Not written,15:31,Artisornis moreaui,Initiator,AControl,Cyanomitra olivacea,CH,420,92,20,3,
+11.1,11.11,Njesi,24-Nov,,,15:31,Artisornis moreaui,Initiator,BConspecific,Artisornis moreaui_Sanga_1,CH,11,10,4,52,
+11.1,11.11,Njesi,24-Nov,,,15:31,Artisornis moreaui,Initiator,CHeterospecific,Artisornis metopias_Njesi_GAJ,CH,420,185,20,12,
+11.1,11.12,Njesi,24-Nov,Not written,Not written,15:31,Artisornis moreaui,Responder,AControl,Cyanomitra olivacea,CH,420,92,20,2,
+11.1,11.12,Njesi,24-Nov,,,15:31,Artisornis moreaui,Responder,BConspecific,Artisornis moreaui_Sanga_1,CH,11,11,4,18,
+11.1,11.12,Njesi,24-Nov,,,15:31,Artisornis moreaui,Responder,CHeterospecific,Artisornis metopias_Njesi_GAJ,CH,420,185,20,9,
+11.2,11.21,Njesi,24-Nov,Not written,Not written,15:31,Artisornis metopias,Initiator,AControl,Cyanomitra olivacea,HC,420,420,20,0,
+11.2,11.21,Njesi,24-Nov,,,15:31,Artisornis metopias,Initiator,CHeterospecific,Artisornis moreaui_Sanga_1,HC,420,420,20,0,
+11.2,11.21,Njesi,24-Nov,,,15:31,Artisornis metopias,Initiator,BConspecific,Artisornis metopias_Njesi_GAJ,HC,108,108,2,33,
+11.2,11.22,Njesi,24-Nov,Not written,Not written,15:31,Artisornis metopias,Responder,AControl,Cyanomitra olivacea,HC,420,420,20,0,
+11.2,11.22,Njesi,24-Nov,,,15:31,Artisornis metopias,Responder,CHeterospecific,Artisornis moreaui_Sanga_1,HC,420,420,20,0,
+11.2,11.22,Njesi,24-Nov,,,15:31,Artisornis metopias,Responder,BConspecific,Artisornis metopias_Njesi_GAJ,HC,108,108,2,28,
